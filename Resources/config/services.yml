@@ -1,0 +1,9 @@
+parameters:
+    ezsupport.composer_data_retriever.class: EzSystems\SupportBundle\DataRetriever\ComposerDataRetriever
+
+services:
+    composer_data_retriever:
+        class: %ezsupport.composer_data_retriever.class%
+
+
+
